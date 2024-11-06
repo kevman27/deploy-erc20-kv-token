@@ -22,7 +22,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 };
 
 async function main() {
-  const replace_contractAddress = "0x8a50E5D72B891370A79532E473907b92a87F7214";
+  const replace_contractAddress = "0x";
   const [signer] = await hre.ethers.getSigners();
   const replace_contractFactory = await hre.ethers.getContractFactory(
     "KvToken"
@@ -31,7 +31,7 @@ async function main() {
 
   const replace_functionName = "mint";
   const replace_functionArgs = [
-    "0x8Ab77353aC866B7Ab690890e620c249A8D3e92D0",
+    "0x",
     "100000000000000000000",
   ]; // 100 tokens with 18 decimal places
 
