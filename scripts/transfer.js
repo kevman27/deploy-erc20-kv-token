@@ -23,7 +23,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 
 async function main() {
   // Address of the deployed contract
-  const replace_contractAddress = "0x8a50E5D72B891370A79532E473907b92a87F7214";
+  const replace_contractAddress = "0x";
 
   // Get the signer (your account)
   const [signer] = await hre.ethers.getSigners();
@@ -37,7 +37,7 @@ async function main() {
   // Send a shielded transaction to execute a transaction in the contract
   const replace_functionName = "transfer";
   const replace_functionArgs = [
-    "0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1",
+    "0x",
     "1000000000000000000",
   ]; // 1 token with 18 decimal places
 
